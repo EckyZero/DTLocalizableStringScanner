@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'DTLocalizableStringScanner'
   spec.version      = '1.0.0'
-  spec.platform     = :osx, '10.7'
+  spec.platform     = :ios
   spec.license      = 'BSD'
   spec.source       = { :git => 'https://github.com/Cocoanetics/DTLocalizableStringScanner.git', :tag => spec.version.to_s }
   spec.source_files = 'Core/Source/*.{h,m,c}'
